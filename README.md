@@ -11,7 +11,7 @@ Install deepethogram using the instructions here: https://github.com/jbohnslav/d
 - Install PyTorch: Use this link for official instruction (command differs based on OS) - https://pytorch.org/
 - Run the command: `pip install deepethogram`
 
-### 2. Download this Github Repository (the code files).
+### 2. Download this Github Repository (the code files). Download the project directory folder from Google Drive (called toad). 
 
 ### 3. Upload all videos (you want predictions for) to a directory on your computer.
 
