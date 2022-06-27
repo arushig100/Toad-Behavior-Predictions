@@ -11,7 +11,7 @@ Install deepethogram using the instructions here: https://github.com/jbohnslav/d
 - Install PyTorch: Use this link for official instruction (command differs based on OS) - https://pytorch.org/
 - Run the command: `pip install deepethogram`
 
-### 2. Download this Github Repository (the code efiles).
+### 2. Download this Github Repository (the code files).
 
 ### 3. Upload all videos (you want predictions for) to a directory on your computer.
 
@@ -34,7 +34,7 @@ Add videos to the project directory (i.e., the directory called toad in the repo
 
 `videos_directory_path` should be the path to a directory of all the videos you want to generate predictions for. These videos should have already been converted to 10fps. The path should end with a “/”
 
-`project_directory_path` should be the path to the project directory (i.e., the directory called toad in the repository). The path should end with a “/”
+`project_directory_path` should be the path to the project directory (i.e., the toad directory in Google Drive). The path should end with a “/”
 
 Example command: `python3 addvideos.py /Users/arushigupta/Downloads/2022-04-05_10fps/ /Users/arushigupta/Downloads/toad/`
 
@@ -42,7 +42,7 @@ Example command: `python3 addvideos.py /Users/arushigupta/Downloads/2022-04-05_1
 Run inference by running the following command: 
 ```python3 inference.py project_directory_path```
 
-`project_directory_path` should be the path to the project directory (i.e., the directory called toad in the repository). The path should end with a “/”
+`project_directory_path` should be the path to the project directory (i.e., the toad directory in Google Drive). The path should end with a “/”
 
 Example Command: `python3 inference.py /Users/arushigupta/Downloads/toad/`
 
@@ -50,7 +50,7 @@ Example Command: `python3 inference.py /Users/arushigupta/Downloads/toad/`
 Generate a CSV file containing the predictions by running the following command: 
 ```python3 genpredictions.py project_directory_path videos_directory_path output_directory_path```
 
-`project_directory_path` should be the path to the project directory (i.e., the directory called toad in the repository). The path should end with a “/”
+`project_directory_path` should be the path to the project directory (i.e., the toad directory in Google Drive). The path should end with a “/”
 
 `videos_directory_path` should be the path to a directory of all the videos you want to generate predictions for. These videos should have already been converted to 10fps. The path should end with a “/”
 
