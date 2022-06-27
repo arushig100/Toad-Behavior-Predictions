@@ -60,3 +60,6 @@ Example Command: `python3 genpredictions.py /Users/arushigupta/Downloads/toad/ /
 
 ### 8. View predictions.
 You can view the predictions in the CSV file called predictions.csv in the output directory specified by `output_directory_path` in Step 6.
+
+### To generate predictions for more folders of videos, do Steps 3-8 again and make sure the conda environment is activated.
+To make sure the conda environment is activated, run `conda activate deg`
