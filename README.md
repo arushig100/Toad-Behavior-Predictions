@@ -12,6 +12,7 @@ Install deepethogram using the instructions here: https://github.com/jbohnslav/d
 - Run the command: `pip install deepethogram`
 
 ### 2. Download this Github Repository (the code files). Download the project directory folder from Google Drive (called toad). 
+- Make sure to change line 44 in the project_config.yaml file in the toad folder to contain the path to the toad folder on your computer. 
 
 ### 3. Upload all videos (you want predictions for) to a directory on your computer.
 
